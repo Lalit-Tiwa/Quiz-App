@@ -22,6 +22,19 @@ This app allows users to answer multiple-choice questions with a **timer**, trac
 - CSS3  
 - JavaScript (ES6+)  
 
+
+---
+
+
+## Screenshots
+
+### First Page
+![First Page](images/first-page.png)
+
+### Result Page
+![Result Page](images/result-page.png)
+
+
 ---
 
 ## How to Run Locally
