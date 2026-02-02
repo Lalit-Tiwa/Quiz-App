@@ -59,11 +59,12 @@ body {
 }
 
 .quizcontainer {
-  position: relative;
-  height: 750px;
-  width: 1300px;
+  
+  min-height: 100vh;
+  max-width: 1300px;
   background-color: #CCE2C2;
   display: none;
+  overflow: hidden;
 
 }
 
@@ -72,8 +73,8 @@ body {
   width: 100%;
   height: 100%;
   max-width: 280px;
-  max-height: 60px;
-  margin-top: 57px;
+  min-height: 60px;
+  margin-top: 32px;
   margin-left: 221px;
   padding: 10px 30px;
   transform: skewX(-8deg);
@@ -106,23 +107,23 @@ body {
 }
 
 .question-container {
-  width: 1021px;
-  height: 100px;
+  max-width: 1021px;
+  min-height: 80px;
   background-color: #F5F5F57A;
   margin:  auto;
+  margin-top: -60px;
   border-radius: 13px;
   display: flex;
   align-items: center;
   box-shadow: 0px 5px 0px #f5f5f5b3;
+  overflow: hidden;
 
 }
 
 .question-container p {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   padding-left: 16px;
-
-
 }
 
 .timer {
@@ -139,11 +140,9 @@ body {
 }
 
 .options-container {
-  width: 1030px;
-  height: 350px;
+  max-width: 1030px;
   border-radius: 13px;
   background-color: #F5F5F57A;
-  margin-top: 20px;
   margin: 4px;
   margin: auto;
   padding: 5px;
@@ -151,8 +150,8 @@ body {
 }
 
 .options {
-  width: 986px;
-  height: 60px;
+  max-width: 986px;
+  height: 40px;
   border-radius: 8px;
   border: 3px solid #D9D9D9;
   margin: 5px 5px;
@@ -166,11 +165,11 @@ body {
 }
 
 .status {
-  margin-left: 600px;
+  margin-left: 700px;
 }
 
 .correct-status {
-  margin-left: 800px;
+  margin-left: 822px;
   display: none;
 
 }
@@ -229,11 +228,11 @@ body {
 .result-container {
   position: relative;
   max-width: 100%;
-  max-height: 100%;
+  min-height: 100vh;
   width: 1440px;
-  height: 700px;
   background-color: #F6F4F0;
   display: none;
+  overflow: hidden;
 
 }
 
@@ -246,8 +245,6 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #f4c400;
-  width: 100%;
-  height: 100%;
   max-width: 240px;
   max-height: 50px;
   padding: 10px 30px;
@@ -335,14 +332,14 @@ body {
 
 .para {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 32px;
   font-weight: 600;
 }
 
 .retry-btn {
   font-size: 20px;
-  padding: 16px 30px;
+  padding: 10px 30px;
   background-color: #35BD3A;
   border: none;
   font-weight: 600;
@@ -351,9 +348,10 @@ body {
   border-radius: 6px;
   cursor: pointer;
   transition: 0.2s ease;
-  margin-left: 650px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-left: 550px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
 
 }
 
